@@ -1,12 +1,17 @@
 import React from "react";
-import "./App.css";
+import Header from "./components/Header";
+import { Container } from "react-bootstrap";
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>Welcome to Proshop</h1>
-     
-    </div>
+    <>
+      <Header />
+      <main className="py-3">
+        <Container>
+          <h1>Welcome to Proshop</h1>
+        </Container>
+      </main>
+    </>
   );
 };
 

@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/styles/index.css";
 import "./assets/styles/bootstrap.custom.css";
 import { RouterProvider } from "react-router-dom";
-import { router } from "./MainRoutes";
+import { router } from "./Routes";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

@@ -13,7 +13,6 @@ app.get("/", (req, res) => {
 });
 app.get("/products", (req, res) => {
   res.send(products);
-  console.log(port);
 });
 app.get("/products/:id", (req, res) => {
   const product = products.find((p) => p._id === req.params.id);
